@@ -1,12 +1,16 @@
+import React from "react";
 import "./App.css";
-import Home from "./components/Home/Home";
+import RandomTextBackground from "./components/reactRandom/RandomTextBackground";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Home />
-    </div>
+    <>
+      <div className="intro-container">
+        <h1 className="intro-name">Dev Babarwal</h1>
+      </div>
+      <RandomTextBackground />
+    </>
   );
-}
+};
 
 export default App;

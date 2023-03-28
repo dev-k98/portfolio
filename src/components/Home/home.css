@@ -1,26 +1,33 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Mulish&display=swap");
-
-.solitude {
+.intro-container {
   display: flex;
-  height: 100%;
-  max-width: 100%;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  font-family: "Mulish", sans-serif;
-  background-color: hsl(0, 0%, 6%);
+  justify-content: center;
+  height: 100vh;
+  padding: 0 20px;
+  background-color: #1d1d1d;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
 }
 
-.text {
-	max-width: 100%;
-  color: hsl(0, 0%, 6%);
-	font-size: 400px;
+.intro-heading {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.intro-paragraph {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #3e3e3e;
+  color: #fff;
   border: none;
-  text-shadow: 5px 5px 20px hsl(30, 9%, 9%), -5px -5px 20px hsl(0, 0%, 9%),
-    -5px 5px 20px hsl(190, 9%, 9%), 5px -5px 20px hsl(0, 0%, 9%);
-	font-weight: 1000;
-	user-select: none;
-}
-
-.text:hover{
-	color: hsl(0, 0%,60%);
+  border-radius: 5px;
+  cursor: pointer;
 }
